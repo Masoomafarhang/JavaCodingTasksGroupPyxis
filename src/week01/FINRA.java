@@ -8,9 +8,22 @@ multiple of 5, print "RA" instead of the number. for numbers which are a multipl
 both 3 and 5, print "FINRA" instead of the number.
  */
     public static void main(String[] args) {
+         finra();
 
 
-
+    }
+    public static void finra(){
+        for (int i = 1; i <=30 ; i++) {
+            if (i%3==0&&i%5==0){
+                System.out.print("Finra ");
+            }else if (i%3==0){
+                System.out.print("fin ");
+            } else if (i%5==0){
+                System.out.print("Ra ");
+            }else {
+                System.out.print(i+" ");
+            }
+        }
     }
 }
 
