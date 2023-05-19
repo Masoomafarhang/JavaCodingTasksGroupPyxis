@@ -13,9 +13,21 @@ public class Odd_Even {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the number for check odd or even ");
-        int num = scan.nextInt();
+        System.out.println(oddOrEvenNum(2));
+
+    }
+
+    public static String oddOrEvenNum(int num) {
+
+
+        if (num % 2 == 0) {
+
+            return "This number is even number";
+
+        } else {
+
+            return "This number is odd number";
+        }
 
 
     }
