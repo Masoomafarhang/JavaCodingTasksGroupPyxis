@@ -9,12 +9,9 @@ identify(5); ->"Odd"
 identify(6); ->"Even"
  */
     public static void main(String[] args) {
-          oddOrEven(5);
-          oddOrEven(6);
+        System.out.println(oddOrEven(6));
     }
-    public static void oddOrEven(int num){
-
-        String result=(num%2==0)?num+" is even number":num+" is odd number";
-        System.out.println(result);
+    public static String oddOrEven(int num){
+       return (num%2==0)?"Even":"Odd";
     }
 }

@@ -6,14 +6,15 @@ public class DivideWithoutOperator {
 Write a method that can divide two numbers without using division operator
      */
     public static void main(String[] args) {
-        divideWithoutOperator(15,5);
+        System.out.println( divideWithoutOperator(15,2));
+
     }
-    public static void divideWithoutOperator(int a,int b){ //a/b=c  15/5=3  15-5=10 10-5=5  5-5=0
+    public static int divideWithoutOperator(int a,int b){
         int count=0;
         while (a>=b){
             a-=b;
             count++;
         }
-        System.out.println(count);
+        return count;
     }
 }
