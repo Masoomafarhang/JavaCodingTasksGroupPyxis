@@ -20,6 +20,7 @@ Write a method that can divide two numbers without using division operator
 
 
     }
+
     public static int divide(int num1, int num2){
         int result = 0;
 
