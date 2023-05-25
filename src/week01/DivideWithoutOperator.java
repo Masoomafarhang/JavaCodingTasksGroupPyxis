@@ -1,40 +1,81 @@
 package week01;
 
+import java.util.Scanner;
+
+
 public class DivideWithoutOperator {
+
+
+
     /*
     Numbers - Divide without / operator:
 Write a method that can divide two numbers without using division operator
      */
-/*
-    Numbers -- Divide without / operator
-            => Write a method that can divide two numbers without using division operator.
-     */
 
-    public static void divideWithoutOperator(double a,double b){
 
-        int count=0;
-        while (a>=b) {
-            a-=b;// >> a = (a-b)>>
-            count++;//+1
-        }
-        System.out.println(count+" reminder "+a);
-    }
-
-    //10 / 2= 5
-    // 10 % 2 == 0
-    // reminder = leftover
     public static void main(String[] args) {
-        divideWithoutOperator(14,3);
-        //       20  | 6,666666
-        //       20
+        Scanner input= new Scanner(System.in);
+        System.out.println("please enter the dividend");
+        int num1= input.nextInt();
+        System.out.println("please enter the divisor");
+        int num2= input.nextInt();
+        int result1= 0;
+        while (num1>= num2){
+            num1 -= num2;
+            result1++;
+        }
+        System.out.println("The result is: "+result1);
+        System.out.println("the remainder is: "+num1);
 
-        int c =11;
-        int d= 5;
+
+        System.out.println("==========================");
+
+      // withoutOperator(25,4);
+
+
+
+        input.close();
 
 
 
 
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the first number: ");
+        int num1 = input.nextInt();
+
+        System.out.println("Enter the second number: ");
+        int num2 = input.nextInt();
+
+        System.out.println(divide(num1,num2));
+
+
+        // hello world
 
     }
+
+    public static int divide(int num1, int num2){
+        int result = 0;
+
+        while(num1 >=num2){
+            num1 -= num2;
+            result++;
+        }
+        return result;
+    }
+    /*
+    public static void withoutOperator(int dividend, int divisor){
+
+        int result= 0;
+        while (dividend>= divisor){
+            dividend -= divisor;
+            result++;
+        }
+        System.out.println(result);
+
+    }
+    */
+
+
+
 
 }
