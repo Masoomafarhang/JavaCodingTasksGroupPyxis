@@ -9,6 +9,24 @@ both 3 and 5, print "FINRA" instead of the number.
  */
     public static void main(String[] args) {
 
+        String result="";
+        for (int num =1;  num <=30; num++) {
+
+            if (num % 15 == 0) {
+                result += "FINRA ";
+            } else if (num % 3 == 0) {
+                result += "FIN ";
+            } else if (num % 5 == 0) {
+                result += "RA ";
+            } else {
+                result += num + " ";
+            }
+        }
+        System.out.println(result);
+
+
+
+
 
 
     }
