@@ -8,9 +8,37 @@ multiple of 5, print "RA" instead of the number. for numbers which are a multipl
 both 3 and 5, print "FINRA" instead of the number.
  */
     public static void main(String[] args) {
+        FINRA1();
+    }
+
+    public static void FINRA1() {
 
 
+   /*     for (int i = 1; i <= 30; i++) {
+
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FINRA");
+            } else if (i % 3 == 0) {
+                System.out.println("Fin");
+            } else if (i % 5 == 0) {
+                System.out.println("RA");
+            } else {
+                System.out.println(i);
+            }
+
+
+        }*/
+
+        for(int i=1; i<=30; i++){
+
+          Object jn =  (i%3==0 && i%5 ==0)?"FINRA":(i%3==0)?"FIN":(i%5==0)?"RA":i;
+
+            System.out.println(jn);
+
+        }
 
     }
+
+
 }
 
