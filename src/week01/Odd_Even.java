@@ -20,6 +20,8 @@ identify(6); ->"Even"
              System.out.println("Odd number: "+number);
          }
 
+         input.close();
+
     }
 
 }
