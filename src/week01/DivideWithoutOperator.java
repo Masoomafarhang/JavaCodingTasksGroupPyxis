@@ -21,6 +21,7 @@ Write a method that can divide two numbers without using division operator
             result1++;
         }
         System.out.println("The result is: "+result1);
+        System.out.println("the remainder is: "+num1);
 
 
         System.out.println("==========================");

@@ -24,6 +24,8 @@ both 3 and 5, print "FINRA" instead of the number.
 
         printNumber();
 
+
+
     }
 }
 
