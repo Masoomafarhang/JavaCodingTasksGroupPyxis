@@ -2,7 +2,7 @@ package week01;
 
 import java.util.Scanner;
 
-public class Odd_Even {
+public class Odd_Even{
     /*
 Numbers-Odd or even:
 Write  a method which can identify given number is even or odd

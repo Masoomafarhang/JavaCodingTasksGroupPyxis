@@ -1,6 +1,6 @@
 package week01;
 
-public class FINRA {
+public class FINRA{
     /*
 Write a method which prints out the numbers from 1 to 30 but for numbers which
 are a multiple of 3print "FIN" instead of the number and for numbers which are a

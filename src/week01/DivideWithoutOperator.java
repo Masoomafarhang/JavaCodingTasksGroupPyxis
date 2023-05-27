@@ -3,7 +3,7 @@ package week01;
 import java.util.Scanner;
 
 
-public class DivideWithoutOperator {
+public class DivideWithoutOperator{
 
 
 
@@ -38,7 +38,7 @@ Write a method that can divide two numbers without using division operator
 
 
 
-
+        /*
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the first number: ");
         int num1 = input.nextInt();
@@ -47,7 +47,7 @@ Write a method that can divide two numbers without using division operator
         int num2 = input.nextInt();
 
         System.out.println(divide(num1,num2));
-
+        */
 
     }
 
