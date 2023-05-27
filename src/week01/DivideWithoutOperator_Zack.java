@@ -1,6 +1,6 @@
 package week01;
 
-public class DivideWithoutOperator {
+public class DivideWithoutOperator_Zack {
     /*
      Numbers - Divide without / operator:
      Write a method that can divide two numbers without using division operator
@@ -12,8 +12,8 @@ public class DivideWithoutOperator {
 
     /**
      * divides the number1 by num2 without using division operator (short description of the method function)
-     * @param num1
-     * @param num2
+     * @param divided
+     * @param divider
      */
     public static void divideWithNoOperator(int divided, int divider) {
         if(divider==0) {
