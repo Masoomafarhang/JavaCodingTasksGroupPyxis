@@ -1,6 +1,8 @@
 package week01;
 
-public class Odd_Even {
+import java.util.Scanner;
+
+public class Odd_Even{
     /*
 Numbers-Odd or even:
 Write  a method which can identify given number is even or odd
@@ -9,11 +11,30 @@ identify(5); ->"Odd"
 identify(6); ->"Even"
  */
     public static void main(String[] args) {
-       oddOrEven(5);
-       oddOrEven(6);
+        Scanner input= new Scanner(System.in);
+         int number= input.nextInt();
+
+         if (number %2 == 0){
+             System.out.println("Even number: "+number);
+         }else {
+             System.out.println("Odd number: "+number);
+         }
+
+         input.close();
+
+
+
+
+        identify(6);
 
     }
-    public static void oddOrEven(int num){
-        System.out.println((num%2==0)?num+" is even number":num+" is odd number");
+
+    public static void identify(int num){
+        if(num % 2 ==0){
+            System.out.println("Even");
+        }else{
+            System.out.println("Odd");
+        }
     }
+
 }
