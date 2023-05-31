@@ -1,6 +1,10 @@
 package Week02;
 
 public class DivisibleBy3_5_15 {
+
+
+
+
 }
 /*
 Write a program that can print the numbers between 1 ~ 100 that can be divisible by 3, 5, and 15.
