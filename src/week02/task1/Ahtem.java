@@ -5,6 +5,7 @@ public class Ahtem {
         swapTwoVariable(10,13);
     }
     public static void swapTwoVariable (int a, int b){
+
         System.out.println("You have entered \nint a= "+a + "\n"+ "int b= "+b);
         System.out.println("After the swapping new variables are ");
         a = a+b;//25
