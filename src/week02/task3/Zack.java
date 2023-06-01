@@ -1,7 +1,17 @@
 package week02.task3;
 
+import java.util.ArrayList;
+
 public class Zack {
-    /*
+
+    public static void main(String[] args) {
+
+
+
+        }
+
+    }
+/*
     ===== Numbers -- print consecutive numbers ===============
     Write a function that, given a positive integer N, prints the consecutive
     numbers from 1 to N, each on a separate line. However, any number divisible
@@ -31,7 +41,7 @@ public class Zack {
     Codility
     17
      */
-    public static void main(String[] args) {
 
-    }
-}
+
+
+

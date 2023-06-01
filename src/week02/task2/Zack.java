@@ -1,5 +1,7 @@
 package week02.task2;
 
+import java.util.ArrayList;
+
 public class Zack {
     /*
     ========= Numbers -- Divisible by 3, 5, 15 ==============
@@ -15,6 +17,27 @@ public class Zack {
         Divisible By 3 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84 87 93 96 99
      */
     public static void main(String[] args) {
+        ArrayList<Integer> devidedBy15 = new ArrayList();
+        ArrayList<Integer> devidedBy5 = new ArrayList();
+        ArrayList<Integer> devidedBy3 = new ArrayList();
+        for (int i = 1; i <= 100; i++) {
+
+            if (i % 15 == 0) {
+                devidedBy15.add(i);
+            }
+            if (i % 3 == 0 && !(i % 5 == 0)) {
+                devidedBy3.add(i);
+            }
+            if (i % 5 == 0 && !(i % 3 == 0)) {
+                devidedBy5.add(i);
+            }
+
+
+        }
+        System.out.println("Divisible By 15: " + devidedBy15);
+        System.out.println("Divisible By 5: " + devidedBy5);
+        System.out.println("Divisible By 3:" + devidedBy3);
 
     }
+
 }
