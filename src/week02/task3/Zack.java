@@ -1,5 +1,7 @@
 package week02.task3;
 
+import java.util.Scanner;
+
 public class Zack {
     /*
     ===== Numbers -- print consecutive numbers ===============
@@ -31,7 +33,5 @@ public class Zack {
     Codility
     17
      */
-    public static void main(String[] args) {
 
-    }
 }
