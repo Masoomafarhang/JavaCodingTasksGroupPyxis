@@ -39,7 +39,7 @@ Write a method that can divide two numbers without using division operator
 
 
 
-        Scanner input = new Scanner(System.in);
+    /*    Scanner input = new Scanner(System.in);
         System.out.println("Enter the first number: ");
         int num1 = input.nextInt();
 
@@ -70,10 +70,10 @@ Write a method that can divide two numbers without using division operator
             dividend -= divisor;
             result++;
         }
-        System.out.println(result);
+        System.out.println(result);*/
 
     }
-    */
+
 
 
 
