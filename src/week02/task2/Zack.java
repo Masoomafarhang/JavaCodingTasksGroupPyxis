@@ -37,9 +37,9 @@ public class Zack {
 
 
         }
-        System.out.println("Divisible By 15: " + devidedBy15);
-        System.out.println("Divisible By 5: "+ devidedBy5);
-        System.out.println("Divisible By 3:" +devidedBy3);
+        System.out.println("Divisible By 15: " + devidedBy15.toString().replace("[","").replace("]",""));
+        System.out.println("Divisible By 5: "+ devidedBy5.toString().replace("[","").replace("]",""));
+        System.out.println("Divisible By 3:" +devidedBy3.toString().replace("[","").replace("]",""));
 
     }
 }
