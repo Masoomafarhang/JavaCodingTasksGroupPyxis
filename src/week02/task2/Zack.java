@@ -15,6 +15,47 @@ public class Zack {
         Divisible By 3 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84 87 93 96 99
      */
     public static void main(String[] args) {
+        String divisibleBy15 ="";
+        String divisibleBy5 ="";
+        String divisibleBy3="";
+
+        int[] arr = new int[100];
+
+        for(int i=0; i < arr.length; i++)
+            arr[i] = i+1;
+
+        for(int each: arr) {
+            if(each %15==0 && each%3==0)
+                divisibleBy15+= each+" ";
+            if(each %5==0 && each%15!=0)
+                divisibleBy5 += each+" ";
+            if(each%3==0 && each%15!=0)
+                divisibleBy3 += each+" ";
+        }
+
+        System.out.println("Divisible By 15 "+divisibleBy15);
+        System.out.println("Divisible By 5 "+divisibleBy5);
+        System.out.println("Divisible By 3 "+divisibleBy3);
+           Divisible();
+    }
+
+    public static void Divisible(){
+        String DivisibelBy15="",DivisibelBy3="", DivisibelBy5="";
+        for (int i=1;i<=100;i++){
+            if (i%3==0&&i%5==0&&i%15==0){
+                DivisibelBy15+=i+" ";
+            } else if (i%3==0&&i%15!=0) {
+                DivisibelBy3+=i+" ";
+            } else if (i%5==0&&i%15!=0) {
+                DivisibelBy5+=i+" ";
+            }
+        }
+        System.out.println("Divisibel By 15  " + DivisibelBy15);
+        System.out.println("Divisibel By 5  " + DivisibelBy5);
+        System.out.println("Divisibel By3 " + DivisibelBy3);
 
     }
+
+
+
 }

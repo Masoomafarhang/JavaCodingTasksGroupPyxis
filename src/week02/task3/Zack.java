@@ -32,6 +32,32 @@ public class Zack {
     17
      */
     public static void main(String[] args) {
+        consecutiveNumbers(17);
 
     }
+    public static void consecutiveNumbers(int n){
+        String divisibleBy2="Codility",divisibleBy3="Test",divisibleBy5="Coders";
+        for(int i=1;i<=n;i++){
+            if (i%2==0 && i%3==0 && i%5==0){
+                System.out.println(divisibleBy2+divisibleBy3+divisibleBy5);
+            } else if (i%2==0 && i%3==0) {
+                System.out.println(divisibleBy2+divisibleBy3);
+            } else if (i%3==0 && i%5==0) {
+                System.out.println(divisibleBy3+divisibleBy5);
+            } else if (i%2==0&& i%5==0) {
+                System.out.println(divisibleBy2+divisibleBy5);
+            } else if (i%2==0) {
+                System.out.println(divisibleBy2);
+            } else if (i%3==0) {
+                System.out.println(divisibleBy3);
+            } else if (i%5==0) {
+                System.out.println(divisibleBy5);
+            }else {
+                System.out.println(i);
+            }
+        }
+    }
+
+
+
 }
