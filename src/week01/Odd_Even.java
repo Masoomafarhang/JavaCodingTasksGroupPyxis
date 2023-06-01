@@ -11,9 +11,15 @@ identify(6); ->"Even"
     public static void main(String[] args) {
 
 
-        public void oddOrEven(int odd ,int even){
+        int [] num={2,1,3,4,5,6,7,8,9,10,12};
 
-        }
+        for (int each : num) {
+            if(each%2==0){
+                System.out.println("Even numbers: "+each);
+            }
+            if(each%2!=0){
+                System.out.println("Odd numbers: "+each);
+            }
 
 
     }
