@@ -19,7 +19,7 @@ public class Omer {
         int d=30;
         int f;
 
-        f=c; //f=10
+        f=c;
         c=d;
         d=f;
         f=0;
@@ -35,7 +35,7 @@ public class Omer {
 
     }
 }
-/*   /*
+   /*
     ========== Numbers -- Swap Numbers =========
     Swap two variable values without using a third variable
     */

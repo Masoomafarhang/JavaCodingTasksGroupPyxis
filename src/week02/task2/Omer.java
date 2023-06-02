@@ -41,40 +41,40 @@ public class Omer {
         }
         System.out.println();*/
 
-        ArrayList<Integer> divisibleNumbers = new ArrayList<>();
+        ArrayList<Integer> divisibleNumb = new ArrayList<>();
 
         for (int num = 1; num <= 100; num++) {
             if (num % 3 == 0 && num % 15 != 0) {
-                divisibleNumbers.add(num);
+                divisibleNumb.add(num);
             }
         }
 
         System.out.print("Divisible By 3: ");
-        for (int num : divisibleNumbers) {
+        for (int num : divisibleNumb) {
             System.out.print(num + " ");
         }
         System.out.println();
-        divisibleNumbers.clear();
+        divisibleNumb.clear();
 
         for (int num = 1; num <= 100; num++) {
             if (num % 5 == 0 && num % 15 != 0) {
-                divisibleNumbers.add(num);
+                divisibleNumb.add(num);
             }
         }
         System.out.print("Divisible By 5: ");
-        for (int num : divisibleNumbers) {
+        for (int num : divisibleNumb) {
             System.out.print(num + " ");
         }
         System.out.println();
-        divisibleNumbers.clear(); // Clear the list for the next category
+        divisibleNumb.clear(); // Clear the list for the next category
 
         for (int num = 1; num <= 100; num++) {
             if (num % 15 == 0) {
-                divisibleNumbers.add(num);
+                divisibleNumb.add(num);
             }
         }
         System.out.print("Divisible By 15: ");
-        for (int num : divisibleNumbers) {
+        for (int num : divisibleNumb) {
             System.out.print(num + " ");
         }
         System.out.println();
