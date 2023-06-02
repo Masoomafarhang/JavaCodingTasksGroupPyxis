@@ -6,9 +6,9 @@ public class Omer {
         int a =40;
         int b=390;
 
-        a=a+b;
-        b=a-b;
-        a=a-b;
+        a=a+b;//a=430
+        b=a-b;//390=430-390; b==40
+        a=a-b;//430=430-40;390 a==390
 
         System.out.println(a);
         System.out.println(b);
@@ -19,7 +19,7 @@ public class Omer {
         int d=30;
         int f;
 
-        f=c;
+        f=c; //f=10
         c=d;
         d=f;
         f=0;
