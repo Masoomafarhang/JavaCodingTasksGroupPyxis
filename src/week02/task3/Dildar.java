@@ -36,10 +36,6 @@ public class Dildar {
 
     }
     public static void consecutiveNumbers(int n){
-        if(!(n>0&&n<=Integer.MAX_VALUE)){
-            System.out.println("InVALID NUMBER");
-            System.exit(1);
-        }
         String divisibleBy2="Codility",divisibleBy3="Test",divisibleBy5="Coders";
         for(int i=1;i<=n;i++){
             if (i%2==0 && i%3==0 && i%5==0){
