@@ -61,7 +61,7 @@ public class Omer {
                 divisibleNumb.add(num);
             }
         }
-        System.out.print("Divisible By 5: ");
+        System.out.print("Divisible By 5 : ");
         for (int num : divisibleNumb) {
             System.out.print(num + " ");
         }
