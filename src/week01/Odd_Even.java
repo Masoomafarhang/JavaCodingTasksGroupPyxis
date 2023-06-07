@@ -11,30 +11,28 @@ identify(5); ->"Odd"
 identify(6); ->"Even"
  */
     public static void main(String[] args) {
-        Scanner input= new Scanner(System.in);
-         int number= input.nextInt();
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
 
-         if (number %2 == 0){
-             System.out.println("Even number: "+number);
-         }else {
-             System.out.println("Odd number: "+number);
-         }
+        if (number % 2 == 0) {
+            System.out.println("Even number: " + number);
+        } else {
+            System.out.println("Odd number: " + number);
+        }
 
-         input.close();
-
-
+        input.close();
 
 
-        identify(6);
+        int[] num = {2, 1, 3, 4, 5, 6, 7, 8, 9, 10, 12};
 
-    }
+        for (int each : num) {
+            if (each % 2 == 0) {
+                System.out.println("Even numbers: " + each);
+            }
+            if (each % 2 != 0) {
+                System.out.println("Odd numbers: " + each);
+            }
 
-    public static void identify(int num){
-        if(num % 2 ==0){
-            System.out.println("Even");
-        }else{
-            System.out.println("Odd");
         }
     }
-
 }
