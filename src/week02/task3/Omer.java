@@ -6,7 +6,7 @@ public class Omer {
     public static void main(String[] args) {
 
 
-
+/*s*/
 
 
 
