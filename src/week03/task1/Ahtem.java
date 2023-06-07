@@ -1,6 +1,6 @@
-package week03;
+package week03.task1;
 
-public class PrimeNumber {
+public class Ahtem {
     public static void main(String[] args) {
 
      /*1️⃣ Numbers -- PrimeNumber
