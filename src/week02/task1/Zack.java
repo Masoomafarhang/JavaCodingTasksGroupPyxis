@@ -21,11 +21,12 @@ public class Zack {
         System.out.println("int a= "+a+"\n"+ "int b= "+ b);
 
 
-        // Solution 1:============================
+        /* Solution 1:============================
         int  a = 10;      int  b  = 20;
         a = a + b;
         b = a - b;
         a = a - b;
+         */
 
         /* Solution 2: ===========================
         int  a = 10;      int  b  = 20;
