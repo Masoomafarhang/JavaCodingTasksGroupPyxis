@@ -22,9 +22,11 @@ public class Zack {
         // -35 => 53-
         String str = new StringBuilder(""+num).reverse().toString();
 
-        // -  +  53-  => -53-
+        // -  +  53-  => -53
         if(num < 0) {
-            str = "-"+str.substring(0, str.length()-1); // removes - sign from the end of the string
+
+            str = "-" + str.substring(0, str.length()-1); // removes - sign from the end of the string
+
         }
         // -53 but it still is a String object
 
