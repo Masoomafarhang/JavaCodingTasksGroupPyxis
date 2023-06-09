@@ -48,32 +48,22 @@ Write a method that can divide two numbers without using division operator
 
         System.out.println(divide(num1,num2));
         */
-
-    }
-
-    public static int divide(int num1, int num2){
-        int result = 0;
-
-        while(num1 >=num2){
-            num1 -= num2;
-            result++;
+        double a = 12;
+        double b = 5;
+        double count = 0;
+        while (a >= b) {
+            a -= b;
+            count++;
         }
-        return result;
-    }
-    /*
-    public static void withoutOperator(int dividend, int divisor){
-
-        int result= 0;
-        while (dividend>= divisor){
-            dividend -= divisor;
-            result++;
+        if (b == 0) {
+            System.out.println("Cannot divide by zero");
+        } else if (a == 0) {
+            System.out.println(count);
+        } else {
+            System.out.println("0");
         }
-        System.out.println(result);
+
 
     }
-    */
-
-
-
 
 }
