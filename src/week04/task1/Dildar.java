@@ -17,7 +17,7 @@ Write a return method that can find the frequency of characters
 
     public static String frequencyOfChars(String str){
         String result = "";
-        for (int i = 0; i < str.length(); i++) {//"AAABBCDD") ==> A3B2C1D2
+        for (int i = 0; i < str.length(); i++) {
             int count = 0;
             for (int j = 0; j < str.length(); j++) {
                 if (str.charAt(i) == str.charAt(j)) {
