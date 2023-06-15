@@ -22,6 +22,8 @@ both 3 and 5, print "FINRA" instead of the number.
     }
     public static void main(String[] args) {
 
+
+
         String result="";
         for (int num =1;  num <=30; num++) {
 
@@ -36,6 +38,7 @@ both 3 and 5, print "FINRA" instead of the number.
             }
         }
         System.out.println(result);
+
 
 
 
@@ -74,6 +77,24 @@ both 3 and 5, print "FINRA" instead of the number.
             }
         }
     }
+
+    public static void finra(){
+      String result="";
+        for (int i = 1; i <=30 ; i++) {
+            if (i%3==0&&i%5==0){
+                result+="Finra ";
+            }else if (i%3==0){
+                result+="FIN ";
+            } else if (i%5==0){
+                result+="RA ";
+            }else {
+                result+=(i+" ");
+            }
+        }
+        System.out.println(result);
+    }
+
+
 
 }
 
