@@ -1,4 +1,4 @@
-package week03.Task3;
+package week03.task3;
 
 public class Mustafa {
 }

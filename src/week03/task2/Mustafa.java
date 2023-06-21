@@ -1,4 +1,4 @@
-package week03.Task2;
+package week03.task2;
 
 public class Mustafa {
     public static void main(String[] args) {
