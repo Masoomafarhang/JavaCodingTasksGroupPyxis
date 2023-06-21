@@ -1,6 +1,4 @@
-package week03.Task1;
-
-import java.sql.PreparedStatement;
+package week03.task1;
 
 public class Mustafa {
    /* Numbers -- PrimeNumber
