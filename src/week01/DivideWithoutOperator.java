@@ -17,11 +17,9 @@ Write a method that can divide two numbers without using division operator
      */
     public static void main(String[] args) {
 
-        System.out.println( divideWithoutOperator(15,2));
+        System.out.println(divideWithoutOperator(15, 2));
 
-
-
-        input.close();
+    }
 
 
 
