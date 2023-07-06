@@ -23,9 +23,8 @@ both 3 and 5, print "FINRA" instead of the number.
     public static void main(String[] args) {
 
 
-
-        String result="";
-        for (int num =1;  num <=30; num++) {
+        String result = "";
+        for (int num = 1; num <= 30; num++) {
 
             if (num % 15 == 0) {
                 result += "FINRA ";
@@ -39,43 +38,6 @@ both 3 and 5, print "FINRA" instead of the number.
         }
         System.out.println(result);
 
-
-
-
-
-
-        printNumber();
-
-
-        finra();
-
-
-        for (int num = 1; num <= 30; num++) {
-            if (num % 3 == 0 && num % 5 == 0 ) {
-                System.out.println( "FINRA");
-            } else if (num % 3 == 0) {
-                System.out.println(" FIN");
-            } else if (num % 5 == 0) {
-                System.out.println("RA");
-            }else {
-                System.out.println(num);
-            }
-        }
-
-    }
-
-    public static void finra(){
-        for (int i = 1; i <=30 ; i++) {
-            if(i % 3 == 0 && i % 5 == 0) {
-                System.out.println("FINRA");
-            }else if(i % 5 == 0){
-                System.out.println("RA");
-            }else if(i % 3 == 0){
-                System.out.println("FIN");
-            }else{
-                System.out.println(i);
-            }
-        }
     }
 
     public static void finra(){

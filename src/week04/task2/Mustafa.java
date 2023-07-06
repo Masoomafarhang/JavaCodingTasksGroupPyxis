@@ -1,4 +1,4 @@
-package week04.Task2;
+package week04.task2;
 
 import java.util.Arrays;
 

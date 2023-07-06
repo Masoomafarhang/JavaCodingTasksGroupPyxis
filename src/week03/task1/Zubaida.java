@@ -1,12 +1,11 @@
 package week03.task1;
 
 public class Zubaida {
-<<<<<<< HEAD
 
-    /*
-=======
+
+
       /*
->>>>>>> origin/master
+
     Numbers -- PrimeNumber
 Write a method that can check if a number is prime or not
      */
@@ -16,6 +15,7 @@ Write a method that can check if a number is prime or not
 
     /**
      * Returns any given number is prime or not.
+     *
      * @param args
      */
 
@@ -35,12 +35,7 @@ Write a method that can check if a number is prime or not
         System.out.println(isPrime);
 
     }
-<<<<<<< HEAD
 
-
-
-
-
-=======
->>>>>>> origin/master
 }
+
+

@@ -1,4 +1,4 @@
-package week04.Task3;
+package week04.task3;
 
 public class Mustafa {
    /* String - Remove Duplicates
